@@ -34,6 +34,7 @@
 
 - (void)setup{
     [self addSubview:self.personView];
+ 
 }
 
 
@@ -41,7 +42,7 @@
 
 - (Person *)personView{
     if (!_personView) {
-        _personView = [[Person alloc]initWithFrame:CGRectMake(0, 0, kWidth, 100)];
+        _personView = [[Person alloc]initWithFrame:CGRectMake(0, 0, kWidth, 50)];
     }
     return _personView;
 }

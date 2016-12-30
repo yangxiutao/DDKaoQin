@@ -22,4 +22,6 @@
 /** Current time ,default today */
 @property (nonatomic, strong) NSString *time;
 
+ 
+
 @end
