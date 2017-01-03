@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, TimeCardType) {
+    TimeCardTypeInWork, //上班打卡
+    TimeCardTypeOutWork //下班打卡
+};
 @interface TimeCardView : UIView
 
 @end

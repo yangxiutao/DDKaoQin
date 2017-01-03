@@ -14,6 +14,8 @@
 /** 主视图 */
 @property (nonatomic, strong) MainView *mainView;
 
+@property(nonatomic,strong)UIView*lineView;//aaa
+
 @end
 
 @implementation ViewController
@@ -48,8 +50,10 @@
 #pragma mark - Help Action
 
 - (IBAction)helpAction:(id)sender {
-    
-    NSLog(@"Help Help Help Help Help Help Help Help Help Help Help Help");
+  NSLog(@"Help Help Help Help Help Help Help Help Help Help Help Help");
+NSLog(@"ddd");
+NSLog(@"ddd");
+NSLog(@"ddd");
 }
 
 @end
